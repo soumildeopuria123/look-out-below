@@ -54,8 +54,3 @@ Arrow keys or A/D move, Space, P or Escape pause. On touch screens, drag on
 the game or hold the on-screen arrows. The game pauses itself when the tab
 is hidden. With reduced motion, the line boil, screen shake and decorative
 loops switch off.
-
-## Deploy with Freebuff Sites
-
-`deploy.json` already points at the build output. After `bun run build`, deploy
-it with the `sites_deploy` tool (or the Sites API) from this directory.
