@@ -14,6 +14,10 @@ bun run dev        # http://localhost:5366 (Vite + the Worker in workerd)
 bun run build      # dist/client (assets) + dist/indie_game/index.js (Worker)
 ```
 
+## Live Deloyed with URL
+
+https://soumildeopuria123.github.io/look-out-below/
+
 ## Pages
 
 | Route | What it is |
