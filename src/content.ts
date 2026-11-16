@@ -4,13 +4,13 @@
 /** Every image is routed through this map. Replace the files in
  * public/images (or point these at your CDN) to use real key art. */
 export const IMAGES = {
-  heroPiano: '/images/hero-piano.webp',
-  keyArt: '/images/press-keyart.webp',
-  shotPlaza: '/images/press-shot-1.webp',
-  shotStreet: '/images/press-shot-2.webp',
-  devlogSketchbook: '/images/devlog-sketchbook.webp',
-  devlogDuck: '/images/devlog-duck.webp',
-  devlogCrowd: '/images/devlog-crowd.webp',
+  heroPiano: `${import.meta.env.BASE_URL}images/hero-piano.webp`,
+  keyArt: `${import.meta.env.BASE_URL}images/press-keyart.webp`,
+  shotPlaza: `${import.meta.env.BASE_URL}images/press-shot-1.webp`,
+  shotStreet: `${import.meta.env.BASE_URL}images/press-shot-2.webp`,
+  devlogSketchbook: `${import.meta.env.BASE_URL}images/devlog-sketchbook.webp`,
+  devlogDuck: `${import.meta.env.BASE_URL}images/devlog-duck.webp`,
+  devlogCrowd: `${import.meta.env.BASE_URL}images/devlog-crowd.webp`,
 } as const
 
 export const brand = {

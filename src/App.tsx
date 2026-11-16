@@ -59,7 +59,7 @@ function Pages() {
 export function App() {
   return (
     <MotionConfig reducedMotion="user">
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
         <RoughDefs />
         <ScrollManager />
         <a href="#main" className="round sr-only z-50 rounded-full bg-ink px-4 py-2 font-extrabold text-white focus:not-sr-only focus:fixed focus:top-3 focus:left-3">
